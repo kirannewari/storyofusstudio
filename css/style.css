@@ -42,6 +42,10 @@
 .flybtn{
     background-color: #317391;
 }
+btnhover:hover{
+    /* background-color: #1b4e6b; */
+    color: #ffffff;
+}
 /*** Button Start ***/
 .btn {
     font-weight: 600;
