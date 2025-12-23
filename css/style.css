@@ -26,7 +26,22 @@
     transition: 0.5s;
     z-index: 99;
 }
-
+.fly{
+    color: #317391;
+}
+.flycobox{
+    background-color: #a8daf2;
+    
+}
+.cotext{
+    color: #87b9f3;
+}
+.flyco{
+    background-color: #e0efff;
+}
+.flybtn{
+    background-color: #317391;
+}
 /*** Button Start ***/
 .btn {
     font-weight: 600;
@@ -121,7 +136,7 @@
 .navbar .navbar-nav .nav-link.active,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: #317391;
 }
 
 @media (min-width: 1200px) {

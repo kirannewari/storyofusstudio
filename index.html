@@ -28,6 +28,22 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
         <style>
+             .package-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(48, 47, 47, 0.08);
+  }
+  .package-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #317391;
+  }
+  .darkt{
+    color: black;
+  }
             #fixedWhatsAppIcon {
   display: block;
   position: fixed;
@@ -53,7 +69,7 @@
 
         <!-- Spinner Start -->
         <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" role="status"></div>
+            <div class="spinner-grow text-info" role="status"></div>
         </div>
         <!-- Spinner End -->
 
@@ -64,10 +80,10 @@
                     <nav class="navbar navbar-light navbar-expand-xl" id="navBar">
                         <a href="index.html" class="navbar-brand">
                             <!-- <h4 class="text-primary display-6 fw-bold mb-0">Mr<strong class="text-secondary">&</strong>Mrs</h4> -->
-                             <img src="img/logo.png" alt="Logo">
+                           <img src="img/logo4.png" alt="Logo" class="navbar-logo">
                         </a>
                         <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                            <span class="fa fa-bars text-primary"></span>
+                            <span class="fa fa-bars fly"></span>
                         </button>
                         <div class="collapse navbar-collapse py-3" id="navbarCollapse">
                             <div class="navbar-nav mx-auto border-top">
@@ -104,58 +120,49 @@
                                 <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
                                     <h1 class="text-white fw-bold mb-0" style="letter-spacing: 3px;">Story of us studio</h1>
                                 </div>
-                                <!-- <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1> -->
-                                <!-- <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
-                                </div> -->
+                             
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">Book Now</a>
+                                <a class="btn flybtn btn-info-outline-0 py-3 px-5" href="https://api.whatsapp.com/send?phone=919817911104&text=Hello!%20Got%20your%20reference%20from%20Website..." target="_blank">Book Now</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
-                        <!-- <div class="carousel-caption">
+                         <div class="carousel-caption">
                             <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
-                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-5" style="border-style: double;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING MARRIED</h4>
-                                </div>
-                                <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1>
                                 <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
+                                    <h1 class="text-white fw-bold mb-0" style="letter-spacing: 3px;">Story of us studio</h1>
                                 </div>
+                             
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">RSVP Now</a>
+                                <a class="btn flybtn btn-info-outline-0 py-3 px-5" href="https://api.whatsapp.com/send?phone=919817911104&text=Hello!%20Got%20your%20reference%20from%20Website..." target="_blank">Book Now</a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/carousel-3.png" class="img-fluid bg-secondary" alt="Image">
-                        <!-- <div class="carousel-caption">
+                         <div class="carousel-caption">
                             <div class="p-3 mx-auto animated zoomIn" style="max-width: 900px;">
                                 <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">WE ARE GETTING MARRIED</h4>
+                                    <h1 class="text-white fw-bold mb-0" style="letter-spacing: 3px;">Story of us studio</h1>
                                 </div>
-                                <h1 class="display-1 text-capitalize text-white mb-3">Evelyn <i class="fa fa-heart text-primary"></i> Anthony</h1>
-                                <div class="d-inline-block border-end-0 border-start-0 border-secondary p-2 mb-4" style="border-style: double;">
-                                    <h4 class="text-white text-uppercase fw-bold mb-0" style="letter-spacing: 3px;">June 28 2024</h4>
-                                </div>
+                             
                                 <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn btn-primary btn-primary-outline-0 py-3 px-5" href="#">RSVP Now</a>
+                                <a class="btn flybtn btn-info-outline-0 py-3 px-5" href="https://api.whatsapp.com/send?phone=919817911104&text=Hello!%20Got%20your%20reference%20from%20Website..." target="_blank">Book Now</a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <button class="carousel-control-prev flybtn" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden flybtn">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                <button class="carousel-control-next flybtn" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden flybtn">Next</span>
                 </button>
             </div>
         </div>
@@ -211,7 +218,7 @@
 
         <!-- about us start -->
           <div class="mx-auto text-center mb-5 wow fadeInUp py-5" data-wow-delay="0.1s" style="max-width: 800;" id="weddingAbout">
-                    <h1 class="text-primary display-1">About us!</h1>
+                    <h1 class="fly display-1">About us!</h1>
                     <small class="text-dark mb-0 p-5">Story of Us Studio is a creative photography and videography business started by my friend with a beautiful vision — to capture real emotions and turn special moments into unforgettable memories. The studio specializes in couple-based shoots and life celebrations, making every story feel personal and timeless.<br>
 
                      From pre-wedding shoots and wedding coverage to anniversaries, engagements, 
@@ -220,23 +227,24 @@
                 <!-- about us start end -->
 
         <!-- Contact us Start -->
-        <div class="container-fluid position-relative overflow-hidden bg-secondary py-5" id="wcontact">
-            <img src="img/bg-flower.png" class="img-fluid position-absolute top-0" style="right: -15px; transform: rotate(270deg); opacity: 0.5;" alt="">
-            <img src="img/bg-flower.png" class="img-fluid position-absolute" style="bottom: 10px; left: -15px; transform: rotate(90deg); opacity: 0.5;" alt="">
+        <div class="container-fluid position-relative overflow-hidden flyco py-5" id="wcontact">
+            <!-- <img src="img/bg-flower.png" class="img-fluid position-absolute top-0" style="right: -15px; transform: rotate(270deg); opacity: 0.5;" alt=""> -->
+            <!-- <img src="img/bg-flower.png" class="img-fluid position-absolute" style="bottom: 10px; left: -15px; transform: rotate(90deg); opacity: 0.5;" alt=""> -->
             <div class="container py-5 position-relative">
                 <div class="row g-5 align-items-center">
                     <div class="col-xl-6 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="border-white bg-primary" style="border-style: double;">
+                        <div class="border-dark bg-info" style="border-style: double;">
                             <img src="img/about-1.jpg" class="img-fluid w-100" alt="">
                         </div>
                     </div>
                     <div class="col-xl-6">
                         <div class="wow fadeIn" data-wow-delay="0.3s">
-                            <h5 class="text-uppercase text-primary fw-bold mb-4">Contact Us</h5>
-                            <h2 class="display-5 text-white mb-4">Turning Moments into Lifetime Memories</h2>
-                            <p class="text-white fs-5 mb-4">If you’re looking for a studio that doesn’t just take photos but tells your story, Story of Us Studio is always ready to capture your moments beautifully.
+                            <!-- <h5 class="text-uppercase fw-bold mb-4 text-dark">Contact Us</h5> -->
+                            <!-- <h2 class="display-5 mb-4 fly">Turning Moments into Lifetime Memories</h2> -->
+                            <h2 class="display-5 mb-4 fly">Contact us</h2>
+                            <p class="fly fs-5 mb-4">If you’re looking for a studio that doesn’t just take photos but tells your story, Story of Us Studio is always ready to capture your moments beautifully.
                             </p>
-                            <div class="tab-class bg-primary p-4">
+                            <div class="tab-class flycobox p-4">
                                 <ul class="nav d-flex mb-4">
                                     <li class="nav-item">
                                         <a class="d-flex py-2 text-center bg-white active" data-bs-toggle="pill" href="#tab-1">
@@ -255,19 +263,19 @@
                                             <div class="col-12">
                                                 <div class="d-flex">
                                                     <div class="me-1">
-                                                        <img src="img/logo2.png" class="img-fluid w-100 img-border" alt="">
+                                                        <img src="img/fly.png" class="img-fluid w-100 img-border" alt="">
                                                     </div>
                                                     <div class="text-start my-auto">
                                                         <h5 class="text-white fw-bold">Address</h5>
-                                                        <p class="text-white mb-3">Jhunjhunu
+                                                        <p class="text-white mb-3">Near HDFC Bank, opposite PNB bank, devi lal chowk, Loharu , 127201 , Haryana,  India
                                                         </p>
                                                         <div class="d-flex">
-                                                            <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                            <a href="https://www.youtube.com/@storyofusstudio" target="_blank" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2"><i class="fab fa-youtube"></i></a>
-                                                            <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-pinterest"></i></a>
-                                                            <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-twitter"></i></a>
-                                                            <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-instagram"></i></a>
-                                                            <a href="" class="btn btn-primary btn-primary-outline-0 btn-sm-square me-0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                                            <a href="" class="btn flybtn btn-info-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                                            <a href="https://www.youtube.com/@storyofusstudio" target="_blank" class="btn flybtn btn-info-outline-0 btn-sm-square me-2"><i class="fab fa-youtube"></i></a>
+                                                            <a href="" class="btn flybtn btn-info-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-pinterest"></i></a>
+                                                            <a href="" class="btn flybtn btn-dark-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-twitter"></i></a>
+                                                            <a href="" class="btn flybtn btn-dark-outline-0 btn-sm-square me-2" target="_blank"><i class="fab fa-instagram"></i></a>
+                                                            <a href="" class="btn flybtn btn-dark-outline-0 btn-sm-square me-0" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -300,15 +308,28 @@
                             </div>
                             <div class="d-flex mt-5">
                                 <div class="d-flex align-items-center justify-content-center flex-shrink-0">
-                                    <a href="#" class="btn btn-primary btn-primary-outline-0 py-3 px-4">Read More</a>
-                                </div>
+
+        <a href="https://maps.app.goo.gl/W4x2dYGQN6NZJzkJ8?g_st=ipc" 
+   target="_blank"
+   style="
+    
+     background:#317391;
+     color:#fff;
+     padding:14px 18px;
+     border-radius:10px;
+     text-decoration:none;
+     font-weight:600;
+     box-shadow:0 5px 15px rgba(0,0,0,0.3);
+     z-index:9999;">
+  📍 Direction >
+</a>                                </div>
                                 <div class="d-flex align-items-center">
                                     <div class="d-inline-block ms-4 me-3">
                                         <i class="fa fa-phone fa-2x text-success border border-2 border-white p-2"></i>
                                     </div>
                                     <div class="d-flex flex-column flex-nowrap">
                                         <h5 class="text-dark fw-bold mb-2">Call Us Anytime</h5>
-                                        <h4 class="text-primary mb-0">+91 9817911104</h4>
+                                        <h4 class=" p-1 mb-0 color-white">+91 9817911104</h4>
                                     </div>
                                 </div>
                             </div>
@@ -444,24 +465,311 @@
         <!-- Wedding Date -->
 
 
-        <!-- Wedding Places start -->
-        <div class="container-fluid wedding-timeline bg-secondary position-relative overflow-hidden py-5" id="wplaces">
-            <div class="position-absolute" style="top: 50%; left: -100px; transform: translateY(-50%); opacity: 0.5;">
-                <img src="img/wedding-bg.png" class="img-fluid" alt="">
+        <!-- Gallery Start -->
+        <div class="container-fluid gallery position-relative py-5" id="wgallery">
+            <!-- <div class="position-absolute" style="top: -95px; right: 0;">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div> -->
+            <!-- <div class="position-absolute" style="top: -80px; left: 0; transform: rotate(150deg);">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div> -->
+            
+            <div class="container position-relative py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-2 fly">Shooting Gallery</h1>
+                    <p class="fs-5 text-dark">Story of Us Studio – Turning Moments into Lifetime Memories</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-5.jpg" data-lightbox="Gallery-5" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-6.jpg" data-lightbox="Gallery-6" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-7.jpg" data-lightbox="Gallery-7" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-8.jpg" data-lightbox="Gallery-8" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding on the beach</h5>
+                                <p class="text-dark mb-0">June 28, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 text-center wow fadeIn" data-wow-delay="0.2s">
+                        <a class="btn flybtn btn-primary-outline-0 py-3 px-5 me-2" href="#">View All <i class="fas fa-arrow-right"></i></a>
+                    </div> -->
+                </div>
             </div>
-            <div class="position-absolute" style="top: 50%; right: -160px; transform: translateY(-50%); opacity: 0.5; rotate: 335deg;">
+        </div>
+        <!-- Gallery end -->
+
+<!-- wedding price start -->
+<div class="container py-5">
+
+   <h2 class="text-center mb-4 package-title fly">Engagement Photography Packages</h2>
+
+  <div class="row g-4">
+
+    <!-- Engagement Silver Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Without Pro)</small></h5>
+        <div class="price">₹30,000</div>
+        <ul class="mt-3 darkt">
+          <li>1 Album (20 Sheets – 100 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (1–2 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Gold Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Without Pro)</small></h5>
+        <div class="price">₹60,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Silver Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Pro)</small></h5>
+        <div class="price">₹40,000</div>
+        <ul class="mt-3 darkt">
+          <li>1 Album (20 Sheets – 100 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (1–2 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Gold Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Pro)</small></h5>
+        <div class="price">₹80,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>1 TB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Wedding Section -->
+  <h2 class="text-center my-5 package-title fly">Wedding Photography Packages</h2>
+
+  <div class="row g-4">
+
+    <!-- Wedding Silver Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Without Pro)</small></h5>
+        <div class="price">₹80,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (3 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Gold Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Without Pro)</small></h5>
+        <div class="price">₹1,80,000</div>
+        <ul class="mt-3 darkt">
+          <li>4 Albums (80 Sheets – 400 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser, Highlight & 3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Silver Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Pro)</small></h5>
+        <div class="price">₹1,00,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>Traditional Videographer</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Gold Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Pro)</small></h5>
+        <div class="price">₹3,00,000</div>
+        <ul class="mt-3 darkt">
+          <li>4 Albums (80 Sheets – 400 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser, Highlight & 8 Reels</li>
+          <li>Cinematic + Reel Videographer</li>
+          <li>Drone Coverage</li>
+          <li>1 TB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- wedding price end -->
+
+  <!-- Wedding Places start -->
+        <div class="container-fluid wedding-timeline flycoboxosition-relative overflow-hidden py-5" id="wplaces">
+            <!-- <div class="position-absolute" style="top: 50%; left: -100px; transform: translateY(-50%); opacity: 0.5;">
                 <img src="img/wedding-bg.png" class="img-fluid" alt="">
-            </div>
+            </div> -->
+            <!-- <div class="position-absolute" style="top: 50%; right: -160px; transform: translateY(-50%); opacity: 0.5; rotate: 335deg;">
+                <img src="img/wedding-bg.png" class="img-fluid" alt="">
+            </div> -->
             <div class="container py-5">
                 <div class="text-center mb-5">
-                    <h1 class="display-4 text-white">Best Scenic Places for Shooting</h1>
+                    <h1 class="display-4 fly">Best Scenic Places for Shooting</h1>
                 </div>
                 <div class="position-relative wedding-content">
                     <div class="row g-4">
                         <div class="col-6 col-md-6 col-xl-3 border border-bottom-0">
                             <div class="text-center p-3 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="mb-4 p-3 d-inline-flex">
-                                    <i class="fas fa-menorah text-primary fa-3x"></i>
+                                    <i class="fas fa-menorah fly fa-3x"></i>
                                 </div>
                                 <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
                                 <h3 class="text-dark">Jaipur</h3>
@@ -471,7 +779,7 @@
                         <div class="col-6 col-md-6 col-xl-3 border border-top-0 border-start-0">
                             <div class="text-center p-3 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="mb-4 p-3 d-inline-flex">
-                                    <i class="fas fa-photo-video text-primary fa-3x"></i>
+                                    <i class="fas fa-photo-video fly fa-3x"></i>
                                 </div>
                                 <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
                                 <h3 class="text-dark">Rishikesh</h3>
@@ -481,7 +789,7 @@
                         <div class="col-6 col-md-6 col-xl-3 border border-bottom-0 border-end-0">
                             <div class="text-center p-3 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4 p-3 d-inline-flex">
-                                    <i class="fas fa-dungeon text-primary fa-3x"></i>
+                                    <i class="fas fa-dungeon fly fa-3x"></i>
                                 </div>
                                 <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
                                 <h3 class="text-dark">Udaipur</h3>
@@ -491,7 +799,7 @@
                         <div class="col-6 col-md-6 col-xl-3 border border-top-0">
                             <div class="text-center p-3 wow fadeIn" data-wow-delay="0.7s">
                                 <div class="mb-4 p-3 d-inline-flex">
-                                    <i class="fas fa-ring text-primary fa-3x"></i>
+                                    <i class="fas fa-ring fly fa-3x"></i>
                                 </div>
                                 <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
                                 <h3 class="text-dark">Kota</h3>
@@ -510,148 +818,17 @@
         </div>
         <!-- Wedding places End -->
 
-
-        <!-- Gallery Start -->
-        <div class="container-fluid gallery position-relative py-5" id="wgallery">
-            <!-- <div class="position-absolute" style="top: -95px; right: 0;">
-                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
-            </div> -->
-            <!-- <div class="position-absolute" style="top: -80px; left: 0; transform: rotate(150deg);">
-                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
-            </div> -->
-            <div class="container position-relative py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-2 text-dark">Shooting Gallery</h1>
-                    <p class="fs-5 text-dark">Story of Us Studio – Turning Moments into Lifetime Memories</p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-5.jpg" data-lightbox="Gallery-5" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-6.jpg" data-lightbox="Gallery-6" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-7.jpg" data-lightbox="Gallery-7" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
-                                <div class="hover-style"></div>
-                                <div class="search-icon">
-                                    <a href="img/gallery-8.jpg" data-lightbox="Gallery-8" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
-                                </div>
-                            </div>
-                            <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
-                                <h5>Wedding on the beach</h5>
-                                <p class="text-dark mb-0">June 28, 2024</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 text-center wow fadeIn" data-wow-delay="0.2s">
-                        <a class="btn btn-primary btn-primary-outline-0 py-3 px-5 me-2" href="#">View All <i class="fas fa-arrow-right"></i></a>
+        <!-- Map Section Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center justify-content-center">
+                        <img src="img/map.png" class="img-fluid center w-75" alt="Location Map" style="max-width: 100%; height: auto;">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Gallery end -->
+        <!-- Map Section End -->
 
 
         <!--- Bridesmaids & Groomsmen start -->
@@ -1048,19 +1225,19 @@
                             <p class="text-white">From pre-wedding shoots and wedding coverage to anniversaries, engagements, birthdays, and family moments, Story of Us Studio focuses on capturing genuine emotions, candid smiles, and heartfelt connections. They also take up custom shoots for people who want to capture something unique — whether it’s a surprise proposal, a travel shoot, or a personal milestone.
 
                             <div class="btn-link d-flex justify-content-center">
-                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-facebook-f"></i></a>
-                                                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-youtube"></i></a>
-                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-instagram"></i></a>
-                                                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-pinterest"></i></a>
-                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-0"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-facebook-f fly"></i></a>
+                                                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2 fly"><i class="fab fa-youtube fly"></i></a>
+                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-twitter fly"></i></a>
+                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2"><i class="fab fa-instagram fly"></i></a>
+                                                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-2 fly"><i class="fab fa-pinterest fly"></i></a>
+                                <a href="#" class="btn btn-md-square btn-light btn-light-outline-0 me-0"><i class="fab fa-linkedin-in fly"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 text-end">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="mb-4 text-white">Follow Us</h4>
-                            <a href="#" class="btn-link" target="_blank"> Facebook</a>
+                            <a href="#" class="btn-link fly" target="_blank"> Facebook</a>
                             <a href="#" class="btn-link" target="_blank"> Instagram</a>
                             <a href="https://www.youtube.com/@storyofusstudio" class="btn-link" target="_blank"> Youtube</a>
                             <a href="#" class="btn-link" target="_blank"> Pinterest</a>
@@ -1083,9 +1260,9 @@
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <!-- <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span> -->
                     </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
+                    <div class="col-md-6 text-center text-md-end text-white fly">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
