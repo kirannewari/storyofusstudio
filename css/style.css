@@ -108,6 +108,7 @@ btnhover:hover{
 .img-border {
     border-color: var(--bs-secondary);
     border-style: double;
+    border-radius: 50%;
 }
 
 .display-1,

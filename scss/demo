@@ -1,0 +1,63 @@
+<div class="container-fluid wedding-timeline flycoboxosition-relative overflow-hidden py-5" id="wplaces">
+            <!-- <div class="position-absolute" style="top: 50%; left: -100px; transform: translateY(-50%); opacity: 0.5;">
+                <img src="img/wedding-bg.png" class="img-fluid" alt="">
+            </div> -->
+            <!-- <div class="position-absolute" style="top: 50%; right: -160px; transform: translateY(-50%); opacity: 0.5; rotate: 335deg;">
+                <img src="img/wedding-bg.png" class="img-fluid" alt="">
+            </div> -->
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h1 class="display-4 fly">Best Scenic Places for Shooting</h1>
+                </div>
+                <div class="position-relative wedding-content">
+                    <div class="row g-4">
+                        <div class="col-6 col-md-6 col-xl-3 border border-bottom-0">
+                            <div class="text-center p-3 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="mb-4 p-3 d-inline-flex">
+                                    <i class="fas fa-menorah fly fa-3x"></i>
+                                </div>
+                                <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
+                                <h3 class="text-dark">Jaipur</h3>
+                                <p class="text-dark">Jaipur, the Pink City, is famous for its royal palaces, forts, and colorful streets. It offers a perfect blend of heritage, culture, and vibrant architecture, making it ideal for traditional and luxury shoots.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-xl-3 border border-top-0 border-start-0">
+                            <div class="text-center p-3 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="mb-4 p-3 d-inline-flex">
+                                    <i class="fas fa-photo-video fly fa-3x"></i>
+                                </div>
+                                <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
+                                <h3 class="text-dark">Rishikesh</h3>
+                                <p class="text-dark">Rishikesh is a peaceful city surrounded by the Ganga River and Himalayan hills. Known for its spiritual vibe, yoga ghats, and scenic nature, it is perfect for calm, soulful, and outdoor shoots.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-xl-3 border border-bottom-0 border-end-0">
+                            <div class="text-center p-3 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4 p-3 d-inline-flex">
+                                    <i class="fas fa-dungeon fly fa-3x"></i>
+                                </div>
+                                <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
+                                <h3 class="text-dark">Udaipur</h3>
+                                <p class="text-dark">Udaipur, the City of Lakes, is known for its romantic palaces, lakes, and royal charm. Its serene views and historic locations make it one of the most beautiful cities for couple and destination shoots.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-6 col-xl-3 border border-top-0">
+                            <div class="text-center p-3 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="mb-4 p-3 d-inline-flex">
+                                    <i class="fas fa-ring fly fa-3x"></i>
+                                </div>
+                                <!-- <p class="text-primary">10:00AM - 11:00AM</p> -->
+                                <h3 class="text-dark">Kota</h3>
+                                <p class="text-dark">Kota is famous for its riverside views, historic structures, and natural surroundings. With locations like the Chambal River and gardens, it offers simple yet scenic backdrops for creative shoots.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-absolute heart-circle " style="bottom: 0; left: -18px;">
+                        <div class="border border-2 border-primary rounded-circle p-1 bg-secondary"></div>
+                    </div>
+                    <div class="position-absolute heart-circle" style="top: 18px; right: -17px;">
+                        <div class="border border-2 border-primary rounded-circle p-1 bg-secondary"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
