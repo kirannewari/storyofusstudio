@@ -175,7 +175,7 @@ font-family: 'Playfair Display', serif;
     align-items: center;
     justify-content: end;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4));
+    /* background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)); */
     background-size: cover;
 }
 

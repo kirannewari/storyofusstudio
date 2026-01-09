@@ -1,0 +1,95 @@
+.custom-footer {
+    position: relative;
+    background: #0f2f3f;
+    color: #ffffff;
+    padding: 60px 20px 40px;
+    text-align: center;
+}
+
+/* Title */
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+/* Social Icons Grid */
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 18px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-grid a {
+    width: 55px;
+    height: 55px;
+    background: #317391;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+
+.social-grid a:hover {
+    background: #4cc2d9;
+    transform: translateY(-4px);
+}
+
+/* Info */
+.footer-info p {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+/* Subscribe Button */
+.subscribe-btn {
+    margin-top: 20px;
+    padding: 12px 34px;
+    background: #4cc2d9;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+    background: #ffffff;
+}
+
+/* Scroll Top Button */
+.scroll-top {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #317391;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scroll-top:hover {
+    background: #4cc2d9;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .footer-title {
+        font-size: 20px;
+    }
+    .social-grid {
+        grid-template-columns: repeat(3, 50px);
+    }
+}

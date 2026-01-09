@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Story of us studio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;600&family=Petit+Formal+Script&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+                <link href="css/footstyle.css" rel="stylesheet">
+
+        <style>
+            .navbar-logo {
+    max-height: 90px;      /* Desktop size */
+    width: auto;
+}
+.about-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    width: 100%;
+    gap: 15px;
+}
+
+/* Center Logo */
+.divider-logo {
+    width: 80px;
+    max-width: 25vw;
+    height: auto;
+}
+
+/* Common Line Style */
+.about-divider .line {
+    flex: 1;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        rgba(49, 115, 145, 0) 0%,
+        rgba(49, 115, 145, 1) 50%,
+        rgba(49, 115, 145, 0) 100%
+    );
+}
+
+/* Reverse gradient for right side */
+.about-divider .right {
+    background: linear-gradient(
+        to left,
+        rgba(49, 115, 145, 0) 0%,
+        rgba(49, 115, 145, 1) 50%,
+        rgba(49, 115, 145, 0) 100%
+    );
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .divider-logo {
+        width: 60px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .navbar-logo {
+        max-height: 70px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .navbar-logo {
+        max-height: 60px;
+    }
+}
+
+             .package-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(48, 47, 47, 0.08);
+  }
+  .package-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  .price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #317391;
+  }
+  .darkt{
+    color: rgb(70, 69, 69);
+  }
+.youtube-section {
+    background: #f8f9fa;
+}
+
+.video-box {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+            #fixedWhatsAppIcon {
+  display: block;
+  position: fixed;
+  left: 20px;
+  bottom: 60px;
+  width: 50px;
+  height: 50px;
+  background-color: #54b460;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  z-index: 9999;
+}
+#fixedWhatsAppIcon:hover {
+  background-color: #339933;
+}
+        </style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navBar" class="bg-light" id="weddingHome">
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-info" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+       <div class="container-fluid sticky-top px-0">
+    <nav class="navbar navbar-light navbar-expand-xl px-4" id="navBar">
+
+        <!-- LOGO : LEFT -->
+        <a href="index.html" class="navbar-brand">
+            <img src="img/logo4.png" alt="Logo" class="img-fluid" style="max-width:260px;">
+        </a>
+
+        <!-- TOGGLER -->
+        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+
+        <!-- MENU : RIGHT -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+    <div class="navbar-nav">
+
+        <a href="/index.html" class="nav-item nav-link active">Home</a>
+        <a href="/aboutus.html" class="nav-item nav-link" target="_blank">About Us</a>
+
+        <!-- Films Dropdown -->
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                Films
+            </a>
+            <div class="dropdown-menu m-0">
+                <a href="/prewed.html" class="dropdown-item">Pre Wedding</a>
+                <a href="/wed.html" class="dropdown-item">Wedding</a>
+            </div>
+        </div>
+
+        <!-- Resources Dropdown -->
+        <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                Resources
+            </a>
+            <div class="dropdown-menu m-0">
+                <a href="/wedfaq.html" class="dropdown-item">FAQ</a>
+                <a href="/wedpackage.html" class="dropdown-item">Packages</a>
+            </div>
+        </div>
+
+        <a href="/wedcontact.html" class="nav-item nav-link">Contact Us</a>
+
+    </div>
+</div>
+
+
+    </nav>
+</div>
+
+     <!-- wedding price start -->
+<div class="container py-5 " id="wpackage">
+
+   <h2 class="text-center mb-4 package-title fly">Engagement Photography Packages</h2>
+
+  <div class="row g-4">
+
+    <!-- Engagement Silver Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Without Pro)</small></h5>
+        <div class="price">₹30,000</div>
+        <ul class="mt-3 darkt">
+          <li>1 Album (20 Sheets – 100 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (1–2 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Gold Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Without Pro)</small></h5>
+        <div class="price">₹60,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Silver Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Pro)</small></h5>
+        <div class="price">₹40,000</div>
+        <ul class="mt-3 darkt">
+          <li>1 Album (20 Sheets – 100 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (1–2 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engagement Gold Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Pro)</small></h5>
+        <div class="price">₹80,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>1 TB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Wedding Section -->
+  <h2 class="text-center my-5 package-title fly">Wedding Photography Packages</h2>
+
+  <div class="row g-4">
+
+    <!-- Wedding Silver Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Without Pro)</small></h5>
+        <div class="price">₹80,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Video Mixing (3 Hours)</li>
+          <li>Traditional Videographer</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Gold Without Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Without Pro)</small></h5>
+        <div class="price">₹1,80,000</div>
+        <ul class="mt-3 darkt">
+          <li>4 Albums (80 Sheets – 400 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser, Highlight & 3 Reels</li>
+          <li>Cinematic Videographer</li>
+          <li>Drone Coverage</li>
+          <li>128 GB Pendrive</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Silver Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Silver Package <small>(Pro)</small></h5>
+        <div class="price">₹1,00,000</div>
+        <ul class="mt-3 darkt">
+          <li>2 Albums (40 Sheets – 200 Photos)</li>
+          <li>Traditional Photographer</li>
+          <li>Teaser & Highlight</li>
+          <li>Traditional Videographer</li>
+          <li>500 GB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Wedding Gold Pro -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card package-card p-3 h-100">
+        <h5>Gold Package <small>(Pro)</small></h5>
+        <div class="price">₹3,00,000</div>
+        <ul class="mt-3 darkt">
+          <li>4 Albums (80 Sheets – 400 Photos)</li>
+          <li>Traditional + Candid Photographer</li>
+          <li>Teaser, Highlight & 8 Reels</li>
+          <li>Cinematic + Reel Videographer</li>
+          <li>Drone Coverage</li>
+          <li>1 TB Hard Disk</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <!-- wedding price end -->
+
+            <footer class="custom-footer">
+    <div class="footer-content">
+
+        <!-- Follow Us -->
+        <h4 class="footer-title">Follow Us</h4>
+
+        <div class="social-grid">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-info">
+            <p><strong>Email:</strong> info.storyofusstudio@gmail.com</p>
+            <p><strong>Address:</strong> Nearby HDFC Bank opposite PNB bank ,devi lal chowk, Loharu, Bhiwani, Haryana India, 127201</p>
+        </div>
+
+        <!-- Subscribe -->
+        <button class="subscribe-btn">Subscribe</button>
+
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+        ↑
+    </button>
+</footer>   
+
+        <a href="https://api.whatsapp.com/send?phone=919817911104&text=Hello!%20Got%20your%20reference%20from%20Website..." id="fixedWhatsAppIcon" class="wow zoomIn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <!-- <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span> -->
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white fly">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        <a href="https://storyofusstudio.com/" class="border-bottom text-warning">@2026 Story of us studio.com</a> Designed & Maintaned By <a class="border-bottom text-warning" href="https://gorzinfotech.com/">Gorz Info tech</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <!-- <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>    -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
