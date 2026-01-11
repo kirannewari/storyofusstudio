@@ -62,7 +62,122 @@
             </div>
         </div>
 
-   
+    <div class="container-fluid gallery position-relative py-5" id="wgallery">
+            <!-- <div class="position-absolute" style="top: -95px; right: 0;">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div> -->
+            <!-- <div class="position-absolute" style="top: -80px; left: 0; transform: rotate(150deg);">
+                <img src="img/tamp-bg-1.png" class="img-fluid" alt="">
+            </div> -->
+            
+            <div class="container position-relative">
+              
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g1.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                            <!-- <div class="gallery-overlay bg-light border-secondary border-top-0 p-4" style="border-style: double;">
+                                <h5>Wedding in the Jaipur</h5>
+                                <p class="text-dark mb-0">Jan 28, 2024</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g2.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g11.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g4.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g5.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-5.jpg" data-lightbox="Gallery-5" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g6.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-6.jpg" data-lightbox="Gallery-6" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                         
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g9.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-7.jpg" data-lightbox="Gallery-7" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="gallery-item">
+                            <div class="gallery-img">
+                                <img class="img-fluid w-100" src="img/g8.jpg" alt="">
+                                <div class="hover-style"></div>
+                                <div class="search-icon">
+                                    <a href="img/gallery-8.jpg" data-lightbox="Gallery-8" class="my-auto"><i class="fas fa-plus flybtn btn-primary-outline-0 p-3"></i></a>
+                                </div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <!-- <div class="col-12 text-center wow fadeIn" data-wow-delay="0.2s">
+                        <a class="btn flybtn btn-primary-outline-0 py-3 px-5 me-2" href="#">View All <i class="fas fa-arrow-right"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
 
      <!-- Contact us Start -->
         <div class="container-fluid position-relative overflow-hidden flyco py-5" id="wcontact">
