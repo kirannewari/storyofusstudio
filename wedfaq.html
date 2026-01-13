@@ -88,58 +88,65 @@
 }
 
 
-/* Responsive */
-@media (max-width: 768px) {
-    .divider-logo {
-        width: 30px;
-    }
+.faq-section {
+  padding: 60px 20px;
+  background: #fff;
 }
 
-/* Tablet */
-@media (max-width: 991px) {
-    .navbar-logo {
-        max-height: 30px;
-    }
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 }
 
-/* Mobile */
-@media (max-width: 576px) {
-    .navbar-logo {
-        max-height: 60px;
-    }
+.faq-box h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #111;
 }
 
-             .package-card {
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(48, 47, 47, 0.08);
-  }
-  .package-title {
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-  .price {
-    font-size: 26px;
-    font-weight: 700;
-    color: #317391;
-  }
-  .darkt{
-    color: rgb(70, 69, 69);
-  }
-.youtube-section {
-    background: #f8f9fa;
+.faq-box details {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 12px 0;
 }
 
-.video-box {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+.faq-box summary {
+  cursor: pointer;
+  font-size: 15px;
+  list-style: none;
+  position: relative;
+  padding-right: 20px;
 }
+
+.faq-box summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+}
+
+.faq-box details[open] summary::after {
+  content: "–";
+}
+
+.faq-box p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+.faqbg{
+background-color: #ededed;
+}
+
+
 
             #fixedWhatsAppIcon {
   display: block;
   position: fixed;
   left: 20px;
-  bottom: 60px;
+  bottom: 30px;
   width: 50px;
   height: 50px;
   background-color: #54b460;
@@ -191,6 +198,8 @@
                 Films
             </a>
             <div class="dropdown-menu m-0">
+                                              <a href="/engage.html" class="dropdown-item" target="_blank">Ring Ceremony</a>
+
                 <a href="/prewed.html" class="dropdown-item" target="_blank">Pre Wedding</a>
                 <a href="/wed.html" class="dropdown-item" target="_blank">Wedding</a>
             </div>
@@ -215,7 +224,7 @@
 
     </nav>
 </div>
-<h1 class=" p-3 text-white flybtn text-center">Most Asked Questions</h1>
+<h1 class=" p-3 text-white flybtn text-center">MOST ASKED QUESTIONS</h1>
 
  <!-- Divider Butterfly Section -->
 <div class="about-divider">
@@ -228,186 +237,92 @@
                 <!-- End Divider Butterfly Section -->
 
 
-<section class="container my-5" id="faq">
-  <div class="text-center mb-5">
-    <h2 class="fw-bold">Frequently Asked Questions</h2>
-    <p class="text-muted">Everything you need to know before booking us</p>
-  </div>
+<section class="container faq-section">
+  <div class="faq-grid">
+ <!-- GENERAL -->
+    <div class="faq-box faqbg p-3">
+      <h1>General Questions:</h1>
 
-  <!-- GENERAL QUESTIONS -->
-  <h4 class="faq-title">General Questions</h4>
-  <div class="accordion mb-4 text-dark" id="generalFaq">
+      <details>
+        <summary>Story Of Us Studio – I would like to know more!</summary>
+        <p>We are a wedding photography & films studio based in Loharu capturing timeless love stories.</p>
+      </details>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#g1">
-          Weddings by Knotty Days – I would like to know more!
-        </button>
-      </h2>
-      <div id="g1" class="accordion-collapse collapse show">
-        <div class="accordion-body">
-          We are a storytelling-driven wedding photography and videography team capturing real emotions and timeless memories.
-        </div>
-      </div>
+      <details>
+        <summary>Are you open to travel for my wedding?</summary>
+        <p>Yes, we love travelling and cover destination weddings across India.</p>
+      </details>
+
+      <details>
+        <summary>Do you offer video as well as photos?</summary>
+        <p>Yes, we offer both photography and cinematic wedding films.</p>
+      </details>
+    </div>
+    <!-- STYLE & APPROACH -->
+    <div class="faq-box faqbg p-3">
+      <h1>Style & Approach:</h1>
+
+      <details>
+        <summary>What’s your wedding photography style?</summary>
+        <p>We focus on natural, candid and cinematic storytelling that feels timeless and emotional.</p>
+      </details>
+
+      <details>
+        <summary>Do you edit the photos?</summary>
+        <p>Yes, every image is professionally edited with color correction and retouching.</p>
+      </details>
     </div>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#g2">
-          Are you open to travel for my wedding?
-        </button>
-      </h2>
-      <div id="g2" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Yes, we love destination weddings and are open to travel across India and abroad.
-        </div>
-      </div>
+    <!-- PAYMENT -->
+    <div class="faq-box faqbg p-3">
+      <h1>Payment & Meetings:</h1>
+
+      <details>
+        <summary>Are your wedding packages negotiable?</summary>
+        <p>Our packages are thoughtfully priced, but we are open to discussions based on requirements.</p>
+      </details>
+
+      <details>
+        <summary>How can I meet you in person?</summary>
+        <p>You can schedule a meeting with us at our studio or via video call.</p>
+      </details>
     </div>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#g3">
-          Do you offer video as well as photos?
-        </button>
-      </h2>
-      <div id="g3" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Yes, we offer both cinematic wedding films and premium photography services.
-        </div>
-      </div>
+   
+
+    <!-- TEAM -->
+    <div class="faq-box faqbg p-3">
+      <h1>Team & Experience:</h1>
+
+      <details>
+        <summary>Who will actually shoot my wedding?</summary>
+        <p>Our experienced in-house team will be present at every event.</p>
+      </details>
+
+      <details>
+        <summary>Have you covered destination weddings?</summary>
+        <p>Yes, we have covered multiple destination weddings across India.</p>
+      </details>
     </div>
 
-  </div>
+    <!-- PRE-WEDDING -->
+    <div class="faq-box faqbg p-3">
+      <h1>Pre-Wedding & Wedding:</h1>
 
-  <!-- TEAM & EXPERIENCE -->
-  <h4 class="faq-title">Team & Experience</h4>
-  <div class="accordion mb-4" id="teamFaq">
+      <details>
+        <summary>When should we plan our pre-wedding shoot?</summary>
+        <p>Ideally 2–3 months before the wedding for best planning and results.</p>
+      </details>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#t1">
-          Who will actually shoot my wedding?
-        </button>
-      </h2>
-      <div id="t1" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Our experienced in-house team will shoot your wedding under direct creative supervision.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#t2">
-          Have you covered destination weddings?
-        </button>
-      </h2>
-      <div id="t2" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Yes, we have covered multiple destination weddings across different cities and resorts.
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- STYLE & APPROACH -->
-  <h4 class="faq-title">Style & Approach</h4>
-  <div class="accordion mb-4" id="styleFaq">
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#s1">
-          What’s your wedding photography style?
-        </button>
-      </h2>
-      <div id="s1" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Our style is candid, natural, emotion-focused, and storytelling-based.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#s2">
-          Do you edit the photos?
-        </button>
-      </h2>
-      <div id="s2" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Yes, all delivered images are professionally color-corrected and retouched.
-        </div>
-      </div>
+      <details>
+        <summary>How long does it take to deliver wedding photos?</summary>
+        <p>Final wedding photos are delivered within 4–6 weeks.</p>
+      </details>
     </div>
 
   </div>
-
-  <!-- PRE-WEDDING & WEDDING -->
-  <h4 class="faq-title">Pre-Wedding & Wedding</h4>
-  <div class="accordion mb-4" id="wedFaq">
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#w1">
-          When should we plan our pre-wedding shoot?
-        </button>
-      </h2>
-      <div id="w1" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Ideally 2–3 months before the wedding to ensure relaxed planning and editing time.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#w2">
-          How long does it take to deliver wedding photos?
-        </button>
-      </h2>
-      <div id="w2" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Final photos are delivered within 4–6 weeks after the wedding.
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- PAYMENT & MEETINGS -->
-  <h4 class="faq-title">Payment & Meetings</h4>
-  <div class="accordion" id="payFaq">
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#p1">
-          Are your wedding packages negotiable?
-        </button>
-      </h2>
-      <div id="p1" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          Packages are customized based on requirements; pricing is discussed transparently.
-        </div>
-      </div>
-    </div>
-
-    <div class="accordion-item">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#p2">
-          How can I meet you in person?
-        </button>
-      </h2>
-      <div id="p2" class="accordion-collapse collapse">
-        <div class="accordion-body">
-          You can meet us by appointment or connect via video call if you’re outside the city.
-        </div>
-      </div>
-    </div>
-
-  </div>
-
 </section>
+
 
 
             <footer class="custom-footer">
