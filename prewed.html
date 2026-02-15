@@ -282,6 +282,50 @@
 #fixedWhatsAppIcon:hover {
   background-color: #339933;
 }
+.fancy-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+
+.heading-text {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Images */
+.heading-line {
+  width: 160px;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heading-text {
+    font-size: 28px;
+    white-space: normal;
+  }
+
+  .heading-line {
+    width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-line {
+    display: none; /* mobile me hide */
+  }
+
+  .heading-text {
+    font-size: 24px;
+  }
+}
+
         </style>
     </head>
     <body data-bs-spy="scroll" data-bs-target="#navBar" id="weddingHome">
@@ -399,14 +443,15 @@ LET OUR WEDDING PHOTOGRAPHERS TURN YOUR DREAM INTO A REALITY</h3>
 
     <!-- <span class=" line right"></span> -->
 </div>
-<div class="about-divider">
-    <span class="line left"></span>
-
-    <!-- <img src="img/fly.png" alt="Story of Us Divider Logo" class="divider-logo"> -->
-     <h2 class="fly">PRE WEDDING STORIES</h2>
-
-    <span class="line right"></span>
+<!-- Divider Butterfly Section -->
+<div class="fancy-heading">
+  <img src="img/13.png" class="heading-line left-line" alt="line">
+  
+  <h2 class="heading-text fly">PRE WEDDING STORIES</h2>
+  
+  <img src="img/14.png" class="heading-line right-line" alt="line">
 </div>
+                <!-- End Divider Butterfly Section -->
                 <!-- End Divider Butterfly Section -->
            <!-- wedding youtube start -->
  <section class="youtube-section py-5" id="wfilm">

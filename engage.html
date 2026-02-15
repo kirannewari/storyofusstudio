@@ -282,6 +282,51 @@
 #fixedWhatsAppIcon:hover {
   background-color: #339933;
 }
+
+.fancy-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap;
+}
+
+.heading-text {
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Images */
+.heading-line {
+  width: 160px;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heading-text {
+    font-size: 28px;
+    white-space: normal;
+  }
+
+  .heading-line {
+    width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading-line {
+    display: none; /* mobile me hide */
+  }
+
+  .heading-text {
+    font-size: 24px;
+  }
+}
+
         </style>
     </head>
     <body data-bs-spy="scroll" data-bs-target="#navBar" id="weddingHome">
@@ -383,7 +428,7 @@
 
 <!-- Navbar End -->
     <div class="">
-<h1 class=" p-3 text-white flybtn text-center">RING CEREMONY</h1>
+<h1 class=" p-3 text-white flybtn text-center">RING CEREMONY </h1>
 <!-- wedding youtube start -->
  <section class="youtube-section py-5" id="wfilm">
     <div class="container-fluid px-4">
@@ -403,15 +448,16 @@ What truly inspires us is taking real love stories and transforming them into me
 
     <!-- <span class=" line right"></span> -->
 </div>
-<div class="about-divider">
-    <span class="line left"></span>
-
-    <!-- <img src="img/fly.png" alt="Story of Us Divider Logo" class="divider-logo"> -->
-     <h2 class="fly">RING CEREMONY STORIES</h2>
-
-    <span class="line right"></span>
+<!-- Divider Butterfly Section -->
+<div class="fancy-heading">
+  <img src="img/13.png" class="heading-line left-line" alt="line">
+  
+  <h2 class="heading-text fly">RING CEREMONY STORIES</h2>
+  
+  <img src="img/14.png" class="heading-line right-line" alt="line">
 </div>
                 <!-- End Divider Butterfly Section -->
+
            <!-- wedding youtube start -->
  <section class="youtube-section py-5" id="wfilm">
     <div class="container container-fluid px-4">
